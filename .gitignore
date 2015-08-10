@@ -1,0 +1,7 @@
+.vagrant
+*.log
+*.zip
+*.sublime*
+.composer
+
+/vendor/

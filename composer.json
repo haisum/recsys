@@ -1,0 +1,16 @@
+{
+    "name": "haisum/recsys",
+    "description": "Get useful basic data of a user from top social networks.",
+    "require": {
+        "facebook/php-sdk-v4": "~5.0",
+        "abraham/twitteroauth": "dev-master",
+        "happyr/linkedin-api-client": "dev-master"
+    },
+    "authors": [
+        {
+            "name": "Haisum Bhatti",
+            "email": "haisumbhatti@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
