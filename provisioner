@@ -5,7 +5,7 @@ installpkg(){
     dpkg-query --status $1 >/dev/null || apt-get install -y $1
 }
 
-apt-get update
+#apt-get update
 installpkg php5
 installpkg php5-curl
 installpkg php5-mysql
@@ -25,7 +25,7 @@ php5enmod mongo
 curl -sS https://getcomposer.org/installer | php
 mv composer.phar /usr/local/bin/composer
 
-cd www && composer install
+cd code && composer install
 
 echo "ServerName localhost" > /etc/apache2/conf-enabled/servername.conf
 a2enmod suexec

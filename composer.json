@@ -12,5 +12,8 @@
             "email": "haisumbhatti@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {"RecSys\\": "src"}
+    },
     "minimum-stability": "dev"
 }
